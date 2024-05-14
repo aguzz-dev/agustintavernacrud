@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS productos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_producto VARCHAR(255) NOT NULL,
-    precio NUMERIC(10,2) NOT NULL,
+    precio NUMERIC(10,2) NOT NULL
 );
 
 INSERT INTO productos (nombre_producto, precio) VALUES ('Gallina', 150.00);
