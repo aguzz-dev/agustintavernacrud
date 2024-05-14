@@ -19,6 +19,7 @@ docker-compose up -d
 - [POST]http://localhost:8000/agustintavernacrud/productos/create
 - [PUT] http://localhost:8000/agustintavernacrud/productos
 - [DELETE] http://localhost:8000/agustintavernacrud/productos
+- [POST] http://localhost:8000/agustintavernacrud/productos/usd
 
 
 ## Tecnologías utilizadas
