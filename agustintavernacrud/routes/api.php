@@ -11,5 +11,5 @@ Route::get('/productos', [ProductController::class, 'index']);
 Route::post('/productos/create', [ProductController::class, 'store']);
 Route::put('/productos', [ProductController::class, 'update']);
 Route::delete('/productos', [ProductController::class, 'destroy']);
-Route::post('/productos/usd', [PriceController::class, 'moneyConverter']);
+Route::get('/productos/usd', [PriceController::class, 'moneyConverter']);
 Route::dispatch();
